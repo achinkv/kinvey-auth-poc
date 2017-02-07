@@ -1,0 +1,231 @@
+*{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 223px;
+    height: 36px;
+    font-size: 16px;
+    padding: 5px 8px;
+    border: 1px solid #CCCCCC;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #CCCCCC;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #CCCCCC;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #CCCCCC;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #CCCCCC;
+}
+
+input:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #5a5c60;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(20, 20, 20, .2);
+    -moz-box-shadow: 0 1px 1px 1px rgba(20, 20, 20, .2);
+    box-shadow: 0 1px 1px 1px rgba(20, 20, 20, .2);
+    outline: 0
+}
+
+button {
+    color:#180E00;
+    font-size: 16px;
+    height: 34px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: linear-gradient(to top, #BB7200, #E38F11);
+    border: 1px solid #BE7400;
+    border-radius: 5%;
+}
+
+button:hover{
+    background: linear-gradient(to top, #CE7D00, #BB7200);
+}
+
+button:active {
+    background: #BB7200;
+    border: 1px solid #BE7400;
+}
+
+button[type=submit] {
+    color: #FFFFFF;
+    background: linear-gradient(to top, #13633A, #1B8F54);
+    border: 1px solid #13633A;
+}
+
+button[type=submit]:hover{
+    background: linear-gradient(to top, #187E4A, #156F41);
+    border: 1px solid #13633A;
+}
+
+button[type=submit]:active{
+    background: #156F41;
+}
+
+label{
+    margin-bottom: 5px;
+    color: #5a5c60;
+}
+
+a {
+    color: #318CE8;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #1259A1;
+    text-decoration : underline;
+}
+
+span{
+    color: #b94a48;
+    font-size: 12px;
+    height: 20px;
+    display: block;
+}
+
+span.error{
+    margin-top: 5px;
+}
+
+p {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5a5c60;
+    text-align: left;
+}
+
+.error-style{
+    color: #b94a48;
+}
+
+.main-div {
+    width: 400px;
+    margin: 100px auto;
+}
+.center-align-div{
+    text-align: center
+}
+
+#cancel-label {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+h2{
+    margin: 24px 0 12px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #3f4040;
+    display: block;
+    font-weight: bold;
+}
+
+span.reset-password {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-left: 2px
+}
+
+#email-input {
+    margin-bottom:25px;margin-top: -10px
+}
+a.logged-in {
+    font-size: 16px;
+}
+
+#logged-as-label {
+    text-align: center;
+}
+
+#verification-div {
+    margin-top: 50px
+}
+
+h4{
+    color: #3f4040;
+    margin: 24px 0 12px;
+    font-size: 20px;
+}
+
+span.login{
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-bottom: -10px;
+}
+
+#main-login-div{
+    width: 460px;
+    margin: auto;
+}
+
+.block-div {
+    display: block;
+}
+
+#login-email-label {
+    padding-left: 60px;
+    margin-right: -12px
+}
+
+#login-email{
+    margin-left: 30px
+}
+
+#login-span{
+    margin-left: 90px
+}
+
+.password-label {
+    margin-left: 27px
+}
+
+.password-input{
+    margin-left: 18px
+}
+
+#login-button{
+    margin-right: 30px;
+    margin-top: 15px
+}
+
+#forget-password-div{
+    margin-top: 20px;
+    margin-left: 27px
+}
+
+#signup-email-label{
+    padding-left: 60px;
+    margin-right: -12px;
+}
+
+#signup-email{
+    margin-left: 30px;
+}
+
+#signup-email-span{
+    margin-left: 90px
+}
+
+#signup_button-div{
+    margin-right: 13px;
+    margin-top: 30px;
+}
+
+
+.block-input-label {
+    margin-bottom: 30px;
+}
